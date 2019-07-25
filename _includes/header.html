@@ -1,11 +1,11 @@
 <header class="layout__header">
   <div class="bar">
     <h1 class="bar__heading">
-      <a class="layout__header-title" href="{{ site.url | relative_url }}">
+      <a class="layout__header-title" href="{{ "/" | relative_url }}">
         {%- if site.logo_svg -%}
           {%- include {{ site.logo_svg }} -%}
         {%- else -%}
-          {{ site.title }}
+          {{ site.title | escape }}
         {%- endif -%}
       </a>
     </h1>
