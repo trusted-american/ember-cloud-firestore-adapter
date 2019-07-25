@@ -16,7 +16,7 @@
 title: Ember Cloud Firestore Adapter
 description: >- # this means to ignore newlines until "baseurl:"
   Unofficial Ember Data Adapter and Serializer for Cloud Firestore
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "ember-cloud-firestore-adapter" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  mikkopaderes
 collections:
