@@ -12,7 +12,7 @@
               {%- for doc in docs -%}
                 {%- if doc.category == category -%}
                   <li class="nav-drawer__list-item">
-                    <a class="nav-drawer__link" href="{{ doc.url }}">{{ doc.title }}</a>
+                    <a class="nav-drawer__link" href="{{ doc.url | relative_url }}">{{ doc.title }}</a>
                   </li>
                 {%- endif -%}
               {%- endfor -%}
@@ -25,7 +25,7 @@
         {%- for doc in docs -%}
           {%- unless doc.category -%}
             <li class="nav-drawer__list-item">
-              <a class="nav-drawer__link nav-drawer__heading" href="{{ doc.url }}">{{ doc.title }}</a>
+              <a class="nav-drawer__link nav-drawer__heading" href="{{ doc.url | relative_url }}">{{ doc.title }}</a>
             </li>
           {%- endunless -%}
         {%- endfor -%}
@@ -36,7 +36,7 @@
           <ul class="nav-drawer__list">
             {%- for post in site.posts -%}
               <li class="nav-drawer__list-item">
-                <a class="nav-drawer__link" href="{{ post.url }}">{{ post.title }}</a>
+                <a class="nav-drawer__link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
               </li>
             {%- endfor -%}
           </ul>
