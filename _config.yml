@@ -25,6 +25,8 @@ collections:
   posts:
     output: true
     permalink: /blog/:year/:month/:day/:title:output_ext
+plugins:
+  - jekyll-seo-tag
 
 # Theme settings
 doc_categories:
