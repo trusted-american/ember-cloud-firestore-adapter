@@ -10,3 +10,18 @@ layout: default
   <h1 class="article__header">{{ page.title | escape }}</h1>
   <div>{{ content }}</div>
 </article>
+
+{%- if site.cenchat.id and page.cenchat.id -%}
+  <button
+    class="article__cenchat-button"
+    id="cenchat-widget-button"
+    data-site-id="{{ site.cenchat.id }}"
+    data-page-id="{{ page.cenchat.id }}"
+  >
+    {%- if page.cenchat.text -%}
+      {{ page.cenchat.text }}
+    {% else %}
+      Share your thoughts
+    {%- endif -%}
+  </button>
+{%- endif -%}
