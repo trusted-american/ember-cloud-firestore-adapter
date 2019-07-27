@@ -3,6 +3,9 @@ layout: doc
 title: Testing
 category: Essentials
 order: 6
+cenchat:
+  id: docs
+  text: Get help
 ---
 
 We use [mock-cloud-firestore](https://github.com/mikkopaderes/mock-cloud-firestore) for testing Cloud Firestore while [ember-simple-auth](https://github.com/simplabs/ember-simple-auth#testing) provides a set of test helpers for authentication.

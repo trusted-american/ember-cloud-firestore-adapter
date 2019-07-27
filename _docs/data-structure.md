@@ -3,6 +3,9 @@ layout: doc
 title: Data Structure
 category: Introduction
 order: 3
+cenchat:
+  id: docs
+  text: Get help
 ---
 
 There's an opinionated default on how this addon will structure your Cloud Firestore data. More of it will be explained below but basically:

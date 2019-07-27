@@ -3,6 +3,9 @@ layout: doc
 title: Getting Started
 category: Introduction
 order: 2
+cenchat:
+  id: docs
+  text: Get help
 ---
 
 This addon is compatible with Ember v3.x and above but the docs assumes that you're using at least Ember and Ember Data v3.11.

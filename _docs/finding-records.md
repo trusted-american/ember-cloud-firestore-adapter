@@ -3,6 +3,9 @@ layout: doc
 title: Finding Records
 category: Essentials
 order: 1
+cenchat:
+  id: docs
+  text: Get help
 ---
 
 The adapter supports `store.findRecord`, `store.findAll`, and, `store.query`. However, there are some **optional** configs that you can make use of to support your needs.

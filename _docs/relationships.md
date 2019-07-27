@@ -3,6 +3,9 @@ layout: doc
 title: Relationships
 category: Essentials
 order: 3
+cenchat:
+  id: docs
+  text: Get help
 ---
 
 The adapter supports `hasMany` and `belongsTo`. However, there are some **optional** configs that you can make use of to support your needs.

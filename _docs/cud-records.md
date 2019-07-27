@@ -3,6 +3,9 @@ layout: doc
 title: Creating, Updating, and Deleting Records
 category: Essentials
 order: 2
+cenchat:
+  id: docs
+  text: Get help
 ---
 
 The adapter supports `store.createRecord`, `store.deleteRecord`, and, `store.destroyRecord`. However, there are some **optional** configs that you can make use of to support your needs.

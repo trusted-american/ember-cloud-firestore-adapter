@@ -3,6 +3,9 @@ layout: doc
 title: What's This Addon?
 category: Introduction
 order: 1
+cenchat:
+  id: docs
+  text: Get help
 ---
 
 This is an unofficial Ember Data Adapter and Serializer for Cloud Firestore. It's completely unrelated to [EmberFire](https://github.com/firebase/emberfire) but it's purpose is the same.

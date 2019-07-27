@@ -3,6 +3,9 @@ layout: doc
 title: Authentication
 category: Essentials
 order: 5
+cenchat:
+  id: docs
+  text: Get help
 ---
 
 The adapter supports Firebase authentication through the [ember-simple-auth](https://github.com/simplabs/ember-simple-auth) addon.
