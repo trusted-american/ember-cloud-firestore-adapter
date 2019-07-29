@@ -8,7 +8,7 @@ cenchat:
   text: Get help
 ---
 
-This is an unofficial Ember Data Adapter and Serializer for Cloud Firestore. It's completely unrelated to [EmberFire](https://github.com/firebase/emberfire) but it's purpose is the same.
+This is an unofficial Ember Data Adapter and Serializer for Cloud Firestore. It's completely unrelated to [EmberFire](https://github.com/firebase/emberfire) but it's purpose is of the same.
 
 ## Features
 
