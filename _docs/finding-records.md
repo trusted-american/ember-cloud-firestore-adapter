@@ -4,7 +4,7 @@ title: Finding Records
 category: Essentials
 order: 1
 cenchat:
-  id: docs
+  id: ember-cloud-firestore_docs
   text: Get help
 ---
 

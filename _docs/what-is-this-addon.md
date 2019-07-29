@@ -4,7 +4,7 @@ title: What's This Addon?
 category: Introduction
 order: 1
 cenchat:
-  id: docs
+  id: ember-cloud-firestore_docs
   text: Get help
 ---
 

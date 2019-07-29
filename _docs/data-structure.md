@@ -4,7 +4,7 @@ title: Data Structure
 category: Introduction
 order: 3
 cenchat:
-  id: docs
+  id: ember-cloud-firestore_docs
   text: Get help
 ---
 

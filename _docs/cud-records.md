@@ -4,7 +4,7 @@ title: Creating, Updating, and Deleting Records
 category: Essentials
 order: 2
 cenchat:
-  id: docs
+  id: ember-cloud-firestore_docs
   text: Get help
 ---
 
