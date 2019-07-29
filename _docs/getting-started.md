@@ -4,7 +4,7 @@ title: Getting Started
 category: Introduction
 order: 2
 cenchat:
-  id: ember-cloud-firestore_docs
+  id: ember-cloud-firestore-adapter_docs
   text: Get help
 ---
 

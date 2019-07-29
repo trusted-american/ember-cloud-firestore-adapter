@@ -4,7 +4,7 @@ title: Transforms
 category: Essentials
 order: 4
 cenchat:
-  id: ember-cloud-firestore_docs
+  id: ember-cloud-firestore-adapter_docs
   text: Get help
 ---
 

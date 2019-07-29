@@ -4,7 +4,7 @@ title: Relationships
 category: Essentials
 order: 3
 cenchat:
-  id: ember-cloud-firestore_docs
+  id: ember-cloud-firestore-adapter_docs
   text: Get help
 ---
 

@@ -4,7 +4,7 @@ title: Testing
 category: Essentials
 order: 6
 cenchat:
-  id: ember-cloud-firestore_docs
+  id: ember-cloud-firestore-adapter_docs
   text: Get help
 ---
 

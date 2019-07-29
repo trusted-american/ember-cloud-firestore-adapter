@@ -4,7 +4,7 @@ title: Authentication
 category: Essentials
 order: 5
 cenchat:
-  id: ember-cloud-firestore_docs
+  id: ember-cloud-firestore-adapter_docs
   text: Get help
 ---
 
