@@ -21,7 +21,7 @@ export function flattenDocSnapshotData(docSnapshot) {
  * @function
  */
 export function buildCollectionName(name) {
-  return camelize(pluralize(name));
+  return camelize(pluralize(name)).replace(/\//g, '\\');
 }
 
 /**
