@@ -24,7 +24,7 @@ export default Transform.extend({
    * @override
    */
   serialize(deserialized) {
-    if (typeOf(deserialized) !== 'date') {
+    if (typeOf(deserialized) !== 'date' && typeOf(deserialized) !== 'null') {
       return firebase.firestore.FieldValue.serverTimestamp();
     }
 
